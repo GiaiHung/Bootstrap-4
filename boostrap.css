@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&family=Zen+Antique&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  color: #222;
+}
+
+body {
+  font-family: 'Shippori Antique', sans-serif;
+  line-height: 1.2;
+}
+
+.navbar {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 30px;
+  font-weight: 800;
+}
+
+.nav-item {
+  position: relative;
+  padding-right: 60px;
+  top: 0; left: 0;
+  margin: auto; 
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 7vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px #222;
+}
+
+.carousel-caption h3 {
+  font-size: 4vw;
+  font-weight: 500;
+  text-shadow: 2px 2px 10px #222;
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 2px solid #6648b1;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 2px solid #563d7c;
+}
+
+/* This ends Slides */
+
+.jumbotron {
+  padding: 1.5rem;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.a {
+  display: inline;
+  height: 75vh;
+  width: 100%;
+}
+/* This ends Jumbotron */
+
+.text-justify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+}
+
+/* This ends Welcome */
+
+.fa-code {
+  color: #e54d26;
+}
+
+.fa-bold {
+  color: #563d7c;
+}
+
+.fa-css3 {
+  margin-top: 0.8rem;
+  color: #063bc2;
+}
+
+.fa-bold, .fa-code, .fa-css3 {
+  font-size: 4em;
+}
+
+.below-icon {
+  margin-top: 0.8rem;
+}
+
+/* this ends icon */
+
+.fun {
+  position: relative;
+  margin: 2rem auto;
+  padding: 5px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.gif {
+  max-width: 100%;
+}
+
+/* This ends gif */
+
+.card {
+  margin: 1rem 0;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* This ends card */
+
+.philosophy {
+  margin-bottom: 1.5rem;
+}
+
+/* This ends Phil */
+
+.social {
+  margin-top: 1.8rem;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #bdd121;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.fa-google-plus-g:hover, 
+.fa-youtube:hover, 
+.fa-twitter:hover, 
+.fa-instagram:hover,
+.fa-facebook:hover {
+  transform: scale(1.2);
+  opacity: 0.65;
+}
+
+/* This ends Social */
+
+footer {
+  background: #3f3f3f;
+  color: #d5d5d5;
+}
+
+.light {
+  border-top: solid 1px #d4d4d4;
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.b {
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 956px) {
+  .social {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 9;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption .btn {
+    font-size: 80%;
+    padding: 4 8;
+  }
+}
